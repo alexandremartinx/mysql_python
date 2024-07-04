@@ -8,3 +8,8 @@ CREATE TABLE IF NOT EXISTS `vagas` (
   `idade` int,
   `cidade` varchar(255)
 );
+
+INSERT INTO vagas (nome, idade, cidade)
+VALUES ('João', 30, 'São Paulo'),
+       ('Maria', 25, 'Rio de Janeiro'),
+       ('Carlos', 35, 'Belo Horizonte');
